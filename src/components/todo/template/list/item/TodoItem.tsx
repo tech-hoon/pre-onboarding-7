@@ -38,8 +38,7 @@ const Remove = styled.div`
 const TodoItemBlock = styled.div`
   display: flex;
   align-items: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 8px 0;
   &:hover {
     ${Remove} {
       display: initial;

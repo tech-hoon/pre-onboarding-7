@@ -15,8 +15,7 @@ const TodoHead = () => {
 const TodoHeadBlock = styled.div`
   display: flex;
   justify-content: center;
-  padding-top: 52px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   border-bottom: 3px solid #33bb77;
 `;
 

@@ -95,10 +95,7 @@ const InsertFormPositioner = styled.div`
 const InsertForm = styled.form`
   display: flex;
   background: #eeeeee;
-  padding-left: 40px;
-  padding-top: 36px;
-  padding-right: 60px;
-  padding-bottom: 36px;
+  padding: 40px 36px 60px 36px;
 `;
 
 const Input = styled.input`
@@ -116,7 +113,7 @@ const Input = styled.input`
 `;
 
 const DatePickerStyled = styled(DatePicker)`
-  padding: 24px 8px;
+  padding: 12px 8px;
 `;
 
 export default React.memo(TodoCreate);

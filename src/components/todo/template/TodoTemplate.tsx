@@ -19,10 +19,10 @@ const TodoTemplateWrapper = styled.div`
 
 const TodoTemplateBlock = styled.div`
   width: 70%;
-  height: 80%;
+  height: 95%;
 
   min-width: 360px;
-  max-width: 700px;
+  max-width: 600px;
 
   position: relative;
   background: white;
