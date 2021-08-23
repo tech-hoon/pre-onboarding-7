@@ -2,12 +2,24 @@ import React from 'react';
 import styled from 'styled-components';
 
 function TodoTemplate(props: any) {
-  return <TodoTemplateBlock>{props.children}</TodoTemplateBlock>;
+  return (
+    <TodoTemplateWrapper>
+      <TodoTemplateBlock>{props.children}</TodoTemplateBlock>
+    </TodoTemplateWrapper>
+  );
 }
+
+const TodoTemplateWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+`;
 
 const TodoTemplateBlock = styled.div`
   width: 70%;
-  height: 800px;
+  height: 80%;
 
   min-width: 360px;
   max-width: 700px;
@@ -18,9 +30,6 @@ const TodoTemplateBlock = styled.div`
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
 
   margin: 0 auto;
-
-  margin-top: 96px;
-  margin-bottom: 32px;
   display: flex;
   flex-direction: column;
 `;
