@@ -35,7 +35,7 @@
 
 ## 데모 링크
 
-[a](a)
+[https://tech-hoon.github.io/pre-onboarding-7/](https://tech-hoon.github.io/pre-onboarding-7/)
 
 ## 실행 방법
 
@@ -49,8 +49,4 @@
 
 ## 데모 영상
 
-![demo]()
-
-## 참고
-
----
+![demo](https://user-images.githubusercontent.com/19265753/130488194-20427391-e74e-41eb-a09c-30b362ddeb90.gif)
