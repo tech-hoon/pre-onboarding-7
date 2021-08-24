@@ -3,7 +3,7 @@
 ## 프로젝트 개요
 
 - Todo List 구현
-- React, TypeScript, antd 사용
+- `React`, `TypeScript`, `localStorage`, `antd`
 - 버그를 수정하고, 명세에 맞게 기능 구현
 - [솔라커넥트](https://www.solarconnect.kr/)에서 제공하는 케이스형 과제
 
